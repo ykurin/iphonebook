@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A34E1C1A0371B400D93E64 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A34E1B1A0371B400D93E64 /* AddViewController.m */; };
+		84BAF3C41A0376BE00C9E916 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAF3C31A0376BE00C9E916 /* ContactTableViewController.m */; };
 		84BCF7171A025AC7004E6FE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCF7161A025AC7004E6FE8 /* Foundation.framework */; };
 		84BCF7191A025AC7004E6FE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCF7181A025AC7004E6FE8 /* CoreGraphics.framework */; };
 		84BCF71B1A025AC7004E6FE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCF71A1A025AC7004E6FE8 /* UIKit.framework */; };
@@ -14,7 +16,6 @@
 		84BCF7231A025AC7004E6FE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCF7221A025AC7004E6FE8 /* main.m */; };
 		84BCF7271A025AC7004E6FE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCF7261A025AC7004E6FE8 /* AppDelegate.m */; };
 		84BCF72A1A025AC7004E6FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BCF7281A025AC7004E6FE8 /* Main.storyboard */; };
-		84BCF72D1A025AC7004E6FE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCF72C1A025AC7004E6FE8 /* ViewController.m */; };
 		84BCF72F1A025AC7004E6FE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BCF72E1A025AC7004E6FE8 /* Images.xcassets */; };
 		84BCF7361A025AC7004E6FE8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCF7351A025AC7004E6FE8 /* XCTest.framework */; };
 		84BCF7371A025AC7004E6FE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCF7161A025AC7004E6FE8 /* Foundation.framework */; };
@@ -34,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84A34E1A1A0371B400D93E64 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddViewController.h; path = ../AddViewController.h; sourceTree = "<group>"; };
+		84A34E1B1A0371B400D93E64 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddViewController.m; path = ../AddViewController.m; sourceTree = "<group>"; };
+		84BAF3C21A0376BE00C9E916 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		84BAF3C31A0376BE00C9E916 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
 		84BCF7131A025AC7004E6FE8 /* iphonebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphonebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BCF7161A025AC7004E6FE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84BCF7181A025AC7004E6FE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +50,6 @@
 		84BCF7251A025AC7004E6FE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84BCF7261A025AC7004E6FE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84BCF7291A025AC7004E6FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84BCF72B1A025AC7004E6FE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84BCF72C1A025AC7004E6FE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84BCF72E1A025AC7004E6FE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84BCF7341A025AC7004E6FE8 /* iphonebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iphonebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BCF7351A025AC7004E6FE8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,11 +115,13 @@
 		84BCF71C1A025AC7004E6FE8 /* iphonebook */ = {
 			isa = PBXGroup;
 			children = (
+				84A34E1A1A0371B400D93E64 /* AddViewController.h */,
+				84A34E1B1A0371B400D93E64 /* AddViewController.m */,
 				84BCF7251A025AC7004E6FE8 /* AppDelegate.h */,
 				84BCF7261A025AC7004E6FE8 /* AppDelegate.m */,
 				84BCF7281A025AC7004E6FE8 /* Main.storyboard */,
-				84BCF72B1A025AC7004E6FE8 /* ViewController.h */,
-				84BCF72C1A025AC7004E6FE8 /* ViewController.m */,
+				84BAF3C21A0376BE00C9E916 /* ContactTableViewController.h */,
+				84BAF3C31A0376BE00C9E916 /* ContactTableViewController.m */,
 				84BCF72E1A025AC7004E6FE8 /* Images.xcassets */,
 				84BCF71D1A025AC7004E6FE8 /* Supporting Files */,
 			);
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BCF72D1A025AC7004E6FE8 /* ViewController.m in Sources */,
+				84BAF3C41A0376BE00C9E916 /* ContactTableViewController.m in Sources */,
 				84BCF7271A025AC7004E6FE8 /* AppDelegate.m in Sources */,
 				84BCF7231A025AC7004E6FE8 /* main.m in Sources */,
+				84A34E1C1A0371B400D93E64 /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				84BCF7471A025AC7004E6FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BCF7481A025AC7004E6FE8 /* Build configuration list for PBXNativeTarget "iphonebookTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				84BCF74A1A025AC7004E6FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
